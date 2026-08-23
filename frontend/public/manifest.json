@@ -1,0 +1,21 @@
+{
+  "short_name": "FlixKeep",
+  "name": "FlixKeep - Movie Watchlist Social Platform",
+  "icons": [
+    {
+      "src": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?auto=format&fit=crop&q=80&w=192&h=192",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?auto=format&fit=crop&q=80&w=512&h=512",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#08090f",
+  "theme_color": "#e50914",
+  "display": "standalone",
+  "orientation": "portrait"
+}

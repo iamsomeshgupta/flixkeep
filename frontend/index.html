@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="FlixKeep is a premium, social movie watchlist platform to track films, create collaborative watchlists, share reviews, and get intelligent recommendations." />
+    <meta name="keywords" content="movies, watchlist, letterboxd, imdb, netflix, cinema, review, rating, collaborative watchlist" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <title>FlixKeep — Your Ultimate Movie Watchlist & Social Hub</title>
+    <link rel="manifest" href="/manifest.json" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then((reg) => console.log('ServiceWorker registered scope:', reg.scope))
+            .catch((err) => console.error('ServiceWorker registration error:', err));
+        });
+      }
+    </script>
+  </body>
+</html>

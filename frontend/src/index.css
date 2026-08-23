@@ -1,0 +1,223 @@
+/* Custom CSS Variables & Core Theme Tokens */
+:root {
+  --bg-color: #08090f; /* Pitch dark space */
+  --bg-surface: rgba(18, 22, 33, 0.45); /* Elegant translucent card surface */
+  --bg-surface-hover: rgba(26, 32, 48, 0.7);
+  --border-color: rgba(255, 255, 255, 0.08);
+  --border-focus: rgba(229, 9, 20, 0.5); /* Glowing crimson border */
+  
+  --primary-color: #E50914; /* Crimson Red */
+  --primary-glow: rgba(229, 9, 20, 0.45);
+  --secondary-color: #6366f1; /* Electric Indigo */
+  --accent-color: #ffc107; /* Gold Star Rating */
+  --accent-glow: rgba(255, 193, 7, 0.3);
+  
+  --text-primary: #f1f5f9; /* Slate 100 */
+  --text-secondary: #94a3b8; /* Slate 400 */
+  --text-muted: #64748b; /* Slate 500 */
+  
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Outfit', sans-serif;
+  
+  --glass-blur: blur(12px);
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-glass: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* Global Reset & Body styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  color: var(--text-primary);
+  background-color: var(--bg-color);
+  overflow-x: hidden;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(229, 9, 20, 0.04) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(99, 102, 241, 0.05) 0px, transparent 50%);
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Typography Overrides */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color);
+}
+
+/* Glassmorphism Utilities */
+.glass-panel {
+  background: var(--bg-surface);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  box-shadow: var(--shadow-glass);
+  transition: all var(--transition-normal);
+}
+
+.glass-panel-hover:hover {
+  background: var(--bg-surface-hover);
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5), 0 0 10px rgba(229, 9, 20, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Custom Dark Inputs */
+.form-dark-control {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid var(--border-color) !important;
+  color: var(--text-primary) !important;
+  border-radius: 8px !important;
+  padding: 0.75rem 1rem !important;
+  transition: all var(--transition-fast) !important;
+}
+
+.form-dark-control:focus {
+  background: rgba(255, 255, 255, 0.08) !important;
+  border-color: var(--border-focus) !important;
+  box-shadow: 0 0 0 3px var(--primary-glow) !important;
+  outline: none !important;
+}
+
+/* Primary Button Styling */
+.btn-netflix {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 600;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 6px;
+  transition: all var(--transition-fast);
+  box-shadow: 0 4px 14px var(--primary-glow);
+}
+
+.btn-netflix:hover {
+  background-color: #b80710;
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px rgba(229, 9, 20, 0.6);
+  color: white;
+}
+
+.btn-netflix:active {
+  transform: scale(0.98);
+}
+
+/* Outlined Glass Button */
+.btn-glass {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  font-weight: 500;
+  padding: 0.6rem 1.5rem;
+  border-radius: 6px;
+  transition: all var(--transition-fast);
+}
+
+.btn-glass:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+/* Movie Card Zoom & Premium Hover Effects */
+.movie-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  transition: all var(--transition-normal);
+  cursor: pointer;
+}
+
+.movie-card-img {
+  width: 100%;
+  aspect-ratio: 2/3;
+  object-fit: cover;
+  transition: transform var(--transition-normal);
+}
+
+.movie-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.movie-card:hover .movie-card-img {
+  transform: scale(1.08);
+}
+
+.movie-card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0) 100%);
+  padding: 1.25rem 1rem 1rem 1rem;
+  opacity: 0;
+  transition: opacity var(--transition-normal);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.movie-card:hover .movie-card-overlay {
+  opacity: 1;
+}
+
+/* Rating Pill */
+.rating-badge {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(255, 193, 7, 0.4);
+  color: var(--accent-color);
+  padding: 0.2rem 0.5rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  backdrop-filter: blur(4px);
+}
+
+/* Animations */
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 5px rgba(229, 9, 20, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(229, 9, 20, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(229, 9, 20, 0.2);
+  }
+}
+
+.pulse-glow {
+  animation: pulseGlow 2s infinite ease-in-out;
+}

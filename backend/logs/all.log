@@ -1,0 +1,292 @@
+[2026-07-26 14:59:14:5914] [[31merror[39m]: [31mPOST /api/v1/auth/register - status: 500 - message: Cannot set property query of [object Object] which has only a getter[39m
+[2026-07-26 14:59:14:5914] [[31merror[39m]: [31mERROR 💥 Cannot set property query of [object Object] which has only a getter[39m
+[2026-07-26 14:59:14:5914] [[31merror[39m]: [31mPOST /api/v1/auth/register - status: 500 - message: Cannot set property query of [object Object] which has only a getter[39m
+[2026-07-26 14:59:14:5914] [[31merror[39m]: [31mERROR 💥 Cannot set property query of [object Object] which has only a getter[39m
+[2026-07-26 14:59:14:5914] [[31merror[39m]: [31mPOST /api/v1/auth/register - status: 500 - message: Cannot set property query of [object Object] which has only a getter[39m
+[2026-07-26 14:59:14:5914] [[31merror[39m]: [31mERROR 💥 Cannot set property query of [object Object] which has only a getter[39m
+[2026-07-26 14:59:15:5915] [[31merror[39m]: [31mPOST /api/v1/auth/register - status: 500 - message: Cannot set property query of [object Object] which has only a getter[39m
+[2026-07-26 14:59:15:5915] [[31merror[39m]: [31mERROR 💥 Cannot set property query of [object Object] which has only a getter[39m
+[2026-07-26 14:59:15:5915] [[31merror[39m]: [31mPOST /api/v1/auth/login - status: 500 - message: Cannot set property query of [object Object] which has only a getter[39m
+[2026-07-26 14:59:15:5915] [[31merror[39m]: [31mERROR 💥 Cannot set property query of [object Object] which has only a getter[39m
+[2026-07-26 14:59:15:5915] [[31merror[39m]: [31mPOST /api/v1/auth/register - status: 500 - message: Cannot set property query of [object Object] which has only a getter[39m
+[2026-07-26 14:59:15:5915] [[31merror[39m]: [31mERROR 💥 Cannot set property query of [object Object] which has only a getter[39m
+[2026-07-26 14:59:15:5915] [[31merror[39m]: [31mPOST /api/v1/auth/login - status: 500 - message: Cannot set property query of [object Object] which has only a getter[39m
+[2026-07-26 14:59:15:5915] [[31merror[39m]: [31mERROR 💥 Cannot set property query of [object Object] which has only a getter[39m
+[2026-07-26 14:59:58:5958] [[31merror[39m]: [31mPOST /api/v1/auth/register - status: 400 - message: Username must be between 3 and 30 characters[39m
+[2026-07-26 14:59:58:5958] [[31merror[39m]: [31mPOST /api/v1/auth/register - status: 400 - message: Please provide a valid email address[39m
+[2026-07-26 14:59:59:5959] [[31merror[39m]: [31mPOST /api/v1/auth/login - status: 500 - message: secretOrPrivateKey must have a value[39m
+[2026-07-26 14:59:59:5959] [[31merror[39m]: [31mERROR 💥 secretOrPrivateKey must have a value[39m
+[2026-07-26 14:59:59:5959] [[31merror[39m]: [31mPOST /api/v1/auth/login - status: 411 - message: Invalid login credentials[39m
+[2026-07-26 15:00:00:00] [[31merror[39m]: [31mSMTP Connection error: Missing credentials for "PLAIN"[39m
+[2026-07-26 15:00:00:00] [[31merror[39m]: [31mPOST /api/v1/auth/login - status: 500 - message: secretOrPrivateKey must have a value[39m
+[2026-07-26 15:00:00:00] [[31merror[39m]: [31mERROR 💥 secretOrPrivateKey must have a value[39m
+[2026-07-26 15:00:01:01] [[31merror[39m]: [31mPOST /api/v1/auth/login - status: 500 - message: secretOrPrivateKey must have a value[39m
+[2026-07-26 15:00:01:01] [[31merror[39m]: [31mERROR 💥 secretOrPrivateKey must have a value[39m
+[2026-07-26 15:00:17:017] [[31merror[39m]: [31mPOST /api/v1/auth/register - status: 400 - message: Username must be between 3 and 30 characters[39m
+[2026-07-26 15:00:17:017] [[31merror[39m]: [31mPOST /api/v1/auth/register - status: 400 - message: Please provide a valid email address[39m
+[2026-07-26 15:00:18:018] [[31merror[39m]: [31mPOST /api/v1/auth/login - status: 411 - message: Invalid login credentials[39m
+[2026-07-26 15:00:20:020] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Invalid credentials[39m
+[2026-07-26 15:00:20:020] [[31merror[39m]: [31mGET /api/v1/auth/me - status: 411 - message: Invalid or expired token. Please login again.[39m
+[2026-07-26 15:04:09:49] [[32minfo[39m]: [32mServer running on port 5000 in development mode[39m
+[2026-07-26 15:04:09:49] [[31merror[39m]: [31mRedis Error: [39m
+[2026-07-26 15:04:09:49] [[31merror[39m]: [31mRedis Error: [39m
+[2026-07-26 15:04:09:49] [[32minfo[39m]: [32mMongoDB Connected: localhost[39m
+[2026-07-26 15:04:10:410] [[31merror[39m]: [31mRedis Error: [39m
+[2026-07-26 15:04:11:411] [[31merror[39m]: [31mRedis Error: [39m
+[2026-07-26 15:04:12:412] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Invalid credentials[39m
+[2026-07-26 15:04:12:412] [[33mwarn[39m]: [33mRedis reconnection failed. Switching to in-memory fallback cache.[39m
+[2026-07-26 15:04:12:412] [[31merror[39m]: [31mRedis Error: [39m
+[2026-07-26 15:04:12:412] [[31merror[39m]: [31mCould not connect to Redis: . In-memory fallback will be used.[39m
+[2026-07-26 15:05:48:548] [[31merror[39m]: [31mGET /api/v1/movies/search - status: 400 - message: Search query parameter "query" is required[39m
+[2026-07-26 15:05:50:550] [[31merror[39m]: [31mPOST /api/v1/auth/register - status: 400 - message: Username must be between 3 and 30 characters[39m
+[2026-07-26 15:05:50:550] [[31merror[39m]: [31mPOST /api/v1/auth/register - status: 400 - message: Please provide a valid email address[39m
+[2026-07-26 15:05:52:552] [[31merror[39m]: [31mPOST /api/v1/auth/login - status: 411 - message: Invalid login credentials[39m
+[2026-07-26 15:05:53:553] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Invalid credentials[39m
+[2026-07-26 15:05:53:553] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Invalid credentials[39m
+[2026-07-26 15:05:53:553] [[31merror[39m]: [31mGET /api/v1/auth/me - status: 411 - message: Invalid or expired token. Please login again.[39m
+[2026-07-26 15:08:19:819] [[31merror[39m]: [31mPOST /api/v1/watchlists - status: 400 - message: Watchlist name is required[39m
+[2026-07-26 15:08:19:819] [[31merror[39m]: [31mPOST /api/v1/watchlists/6a65d58b7385d35d0aa7b4ea/movies - status: 400 - message: This movie is already in the watchlist[39m
+[2026-07-26 15:08:19:819] [[31merror[39m]: [31mGET /api/v1/watchlists/6a65d58b7385d35d0aa7b4ea - status: 404 - message: Watchlist not found[39m
+[2026-07-26 15:08:24:824] [[31merror[39m]: [31mPOST /api/v1/auth/register - status: 400 - message: Username must be between 3 and 30 characters[39m
+[2026-07-26 15:08:24:824] [[31merror[39m]: [31mPOST /api/v1/auth/register - status: 400 - message: Please provide a valid email address[39m
+[2026-07-26 15:08:24:824] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:08:24:824] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:08:24:824] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:08:26:826] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:08:27:827] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:08:27:827] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:08:27:827] [[31merror[39m]: [31mPOST /api/v1/auth/login - status: 411 - message: Invalid login credentials[39m
+[2026-07-26 15:08:30:830] [[31merror[39m]: [31mGET /api/v1/auth/me - status: 411 - message: Invalid or expired token. Please login again.[39m
+[2026-07-26 15:08:31:831] [[31merror[39m]: [31mGET /api/v1/movies/search - status: 400 - message: Search query parameter "query" is required[39m
+[2026-07-26 15:08:32:832] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:08:32:832] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:11:38:1138] [[31merror[39m]: [31mPOST /api/v1/reviews - status: 409 - message: You have already written a review for this movie[39m
+[2026-07-26 15:11:38:1138] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:11:38:1138] [[31merror[39m]: [31mPOST /api/v1/social/follow/6a65d6514594915bb1b94cdc - status: 400 - message: You cannot follow yourself[39m
+[2026-07-26 15:11:40:1140] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:11:40:1140] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:11:40:1140] [[31merror[39m]: [31mPOST /api/v1/auth/register - status: 400 - message: Username must be between 3 and 30 characters[39m
+[2026-07-26 15:11:41:1141] [[31merror[39m]: [31mPOST /api/v1/auth/register - status: 400 - message: Please provide a valid email address[39m
+[2026-07-26 15:11:41:1141] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:11:41:1141] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:11:42:1142] [[31merror[39m]: [31mPOST /api/v1/auth/login - status: 411 - message: Invalid login credentials[39m
+[2026-07-26 15:11:43:1143] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:11:43:1143] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:11:43:1143] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:11:44:1144] [[31merror[39m]: [31mGET /api/v1/auth/me - status: 411 - message: Invalid or expired token. Please login again.[39m
+[2026-07-26 15:11:48:1148] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:11:48:1148] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:11:48:1148] [[31merror[39m]: [31mPOST /api/v1/watchlists - status: 400 - message: Watchlist name is required[39m
+[2026-07-26 15:11:48:1148] [[31merror[39m]: [31mPOST /api/v1/watchlists/6a65d65cdd0d6855ae4477fb/movies - status: 400 - message: This movie is already in the watchlist[39m
+[2026-07-26 15:11:48:1148] [[31merror[39m]: [31mGET /api/v1/watchlists/6a65d65cdd0d6855ae4477fb - status: 404 - message: Watchlist not found[39m
+[2026-07-26 15:11:49:1149] [[31merror[39m]: [31mGET /api/v1/movies/search - status: 400 - message: Search query parameter "query" is required[39m
+[2026-07-26 15:14:49:1449] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:14:50:1450] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:14:50:1450] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:14:50:1450] [[31merror[39m]: [31mPOST /api/v1/reviews - status: 409 - message: You have already written a review for this movie[39m
+[2026-07-26 15:14:50:1450] [[31merror[39m]: [31mPOST /api/v1/social/follow/6a65d711376333998e35fd66 - status: 400 - message: You cannot follow yourself[39m
+[2026-07-26 15:14:52:1452] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:14:53:1453] [[31merror[39m]: [31mPOST /api/v1/auth/register - status: 400 - message: Username must be between 3 and 30 characters[39m
+[2026-07-26 15:14:53:1453] [[31merror[39m]: [31mPOST /api/v1/auth/register - status: 400 - message: Please provide a valid email address[39m
+[2026-07-26 15:14:53:1453] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:14:53:1453] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:14:53:1453] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:14:53:1453] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:14:55:1455] [[31merror[39m]: [31mPOST /api/v1/auth/login - status: 411 - message: Invalid login credentials[39m
+[2026-07-26 15:14:55:1455] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:14:56:1456] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:14:56:1456] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:14:57:1457] [[31merror[39m]: [31mGET /api/v1/auth/me - status: 411 - message: Invalid or expired token. Please login again.[39m
+[2026-07-26 15:15:00:150] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:15:00:150] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:15:01:151] [[31merror[39m]: [31mPOST /api/v1/watchlists - status: 400 - message: Watchlist name is required[39m
+[2026-07-26 15:15:01:151] [[31merror[39m]: [31mPOST /api/v1/watchlists/6a65d71d4ea3a6932f3c9443/movies - status: 400 - message: This movie is already in the watchlist[39m
+[2026-07-26 15:15:01:151] [[31merror[39m]: [31mGET /api/v1/watchlists/6a65d71d4ea3a6932f3c9443 - status: 404 - message: Watchlist not found[39m
+[2026-07-26 15:15:02:152] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:15:02:152] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:15:02:152] [[31merror[39m]: [31mGET /api/v1/movies/search - status: 400 - message: Search query parameter "query" is required[39m
+[2026-07-26 15:16:08:168] [[31merror[39m]: [31mGET /api/v1/dashboard/admin - status: 403 - message: You do not have permission to perform this action.[39m
+[2026-07-26 15:16:08:168] [[31merror[39m]: [31mGET /api/v1/dashboard/user - status: 403 - message: Your account has been suspended by an administrator.[39m
+[2026-07-26 15:16:10:1610] [[31merror[39m]: [31mPOST /api/v1/auth/register - status: 400 - message: Username must be between 3 and 30 characters[39m
+[2026-07-26 15:16:10:1610] [[31merror[39m]: [31mPOST /api/v1/auth/register - status: 400 - message: Please provide a valid email address[39m
+[2026-07-26 15:16:11:1611] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Invalid credentials[39m
+[2026-07-26 15:16:11:1611] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:16:11:1611] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Invalid credentials[39m
+[2026-07-26 15:16:11:1611] [[31merror[39m]: [31mPOST /api/v1/auth/login - status: 411 - message: Invalid login credentials[39m
+[2026-07-26 15:16:13:1613] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Invalid credentials[39m
+[2026-07-26 15:16:13:1613] [[31merror[39m]: [31mGET /api/v1/auth/me - status: 411 - message: Invalid or expired token. Please login again.[39m
+[2026-07-26 15:16:13:1613] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Invalid credentials[39m
+[2026-07-26 15:16:13:1613] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:16:15:1615] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Invalid credentials[39m
+[2026-07-26 15:16:15:1615] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:16:18:1618] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:16:18:1618] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:16:18:1618] [[31merror[39m]: [31mPOST /api/v1/reviews - status: 409 - message: You have already written a review for this movie[39m
+[2026-07-26 15:16:18:1618] [[31merror[39m]: [31mPOST /api/v1/social/follow/6a65d7694f0263c70aa3bbed - status: 400 - message: You cannot follow yourself[39m
+[2026-07-26 15:16:18:1618] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:16:20:1620] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:16:20:1620] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:16:21:1621] [[31merror[39m]: [31mPOST /api/v1/watchlists - status: 400 - message: Watchlist name is required[39m
+[2026-07-26 15:16:21:1621] [[31merror[39m]: [31mPOST /api/v1/watchlists/6a65d76d85bc9548ea19f1f6/movies - status: 400 - message: This movie is already in the watchlist[39m
+[2026-07-26 15:16:21:1621] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:16:21:1621] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:16:21:1621] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:16:21:1621] [[31merror[39m]: [31mGET /api/v1/watchlists/6a65d76d85bc9548ea19f1f6 - status: 404 - message: Watchlist not found[39m
+[2026-07-26 15:16:22:1622] [[31merror[39m]: [31mGET /api/v1/movies/search - status: 400 - message: Search query parameter "query" is required[39m
+[2026-07-26 15:19:17:1917] [[31merror[39m]: [31mPOST /api/v1/auth/register - status: 400 - message: Username must be between 3 and 30 characters[39m
+[2026-07-26 15:19:17:1917] [[31merror[39m]: [31mPOST /api/v1/auth/register - status: 400 - message: Please provide a valid email address[39m
+[2026-07-26 15:19:18:1918] [[31merror[39m]: [31mPOST /api/v1/auth/login - status: 411 - message: Invalid login credentials[39m
+[2026-07-26 15:19:19:1919] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:19:19:1919] [[31merror[39m]: [31mGET /api/v1/auth/me - status: 411 - message: Invalid or expired token. Please login again.[39m
+[2026-07-26 15:19:20:1920] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:19:20:1920] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:19:20:1920] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:19:22:1922] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:19:22:1922] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:19:22:1922] [[31merror[39m]: [31mGET /api/v1/dashboard/admin - status: 403 - message: You do not have permission to perform this action.[39m
+[2026-07-26 15:19:22:1922] [[31merror[39m]: [31mGET /api/v1/dashboard/user - status: 403 - message: Your account has been suspended by an administrator.[39m
+[2026-07-26 15:19:24:1924] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:19:24:1924] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:19:24:1924] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:19:25:1925] [[31merror[39m]: [31mPOST /api/v1/reviews - status: 409 - message: You have already written a review for this movie[39m
+[2026-07-26 15:19:25:1925] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:19:25:1925] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:19:25:1925] [[31merror[39m]: [31mTMDB API request failed on path /movie/550: read ECONNRESET[39m
+[2026-07-26 15:19:26:1926] [[31merror[39m]: [31mTMDB API request failed on path /movie/550: read ECONNRESET[39m
+[2026-07-26 15:19:26:1926] [[31merror[39m]: [31mPOST /api/v1/social/follow/6a65d8241b619ce3daa74cf2 - status: 400 - message: You cannot follow yourself[39m
+[2026-07-26 15:19:28:1928] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:19:28:1928] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:19:28:1928] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:19:29:1929] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:19:29:1929] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:19:29:1929] [[31merror[39m]: [31mPOST /api/v1/watchlists - status: 400 - message: Watchlist name is required[39m
+[2026-07-26 15:19:29:1929] [[31merror[39m]: [31mPOST /api/v1/watchlists/6a65d829b55b469e78018ec6/movies - status: 400 - message: This movie is already in the watchlist[39m
+[2026-07-26 15:19:29:1929] [[31merror[39m]: [31mGET /api/v1/watchlists/6a65d829b55b469e78018ec6 - status: 404 - message: Watchlist not found[39m
+[2026-07-26 15:19:32:1932] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:19:32:1932] [[31merror[39m]: [31mGET /api/v1/movies/search - status: 400 - message: Search query parameter "query" is required[39m
+[2026-07-26 15:19:48:1948] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:20:09:209] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:20:09:209] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:20:09:209] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:20:20:2020] [[31merror[39m]: [31mPOST /api/v1/auth/register - status: 400 - message: Username must be between 3 and 30 characters[39m
+[2026-07-26 15:20:20:2020] [[31merror[39m]: [31mPOST /api/v1/auth/register - status: 400 - message: Please provide a valid email address[39m
+[2026-07-26 15:20:21:2021] [[31merror[39m]: [31mPOST /api/v1/auth/login - status: 411 - message: Invalid login credentials[39m
+[2026-07-26 15:20:22:2022] [[31merror[39m]: [31mGET /api/v1/auth/me - status: 411 - message: Invalid or expired token. Please login again.[39m
+[2026-07-26 15:20:24:2024] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:20:24:2024] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:20:24:2024] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:20:25:2025] [[31merror[39m]: [31mPOST /api/v1/reviews - status: 409 - message: You have already written a review for this movie[39m
+[2026-07-26 15:20:25:2025] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:20:25:2025] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:20:26:2026] [[31merror[39m]: [31mTMDB API request failed on path /movie/550: Request failed with status code 401[39m
+[2026-07-26 15:20:26:2026] [[31merror[39m]: [31mTMDB status: 401 - data: {"status_code":7,"status_message":"Invalid API key: You must be granted a valid key.","success":false}[39m
+[2026-07-26 15:20:26:2026] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:20:26:2026] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:20:26:2026] [[31merror[39m]: [31mTMDB API request failed on path /movie/550: Request failed with status code 401[39m
+[2026-07-26 15:20:26:2026] [[31merror[39m]: [31mTMDB status: 401 - data: {"status_code":7,"status_message":"Invalid API key: You must be granted a valid key.","success":false}[39m
+[2026-07-26 15:20:26:2026] [[31merror[39m]: [31mPOST /api/v1/social/follow/6a65d860cafd65d3ac4b7a30 - status: 400 - message: You cannot follow yourself[39m
+[2026-07-26 15:20:28:2028] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:20:28:2028] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:20:28:2028] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:20:29:2029] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:20:29:2029] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:20:31:2031] [[31merror[39m]: [31mPOST /api/v1/watchlists - status: 400 - message: Watchlist name is required[39m
+[2026-07-26 15:20:31:2031] [[31merror[39m]: [31mPOST /api/v1/watchlists/6a65d8670291a0d5eb5848f8/movies - status: 400 - message: This movie is already in the watchlist[39m
+[2026-07-26 15:20:32:2032] [[31merror[39m]: [31mGET /api/v1/watchlists/6a65d8670291a0d5eb5848f8 - status: 404 - message: Watchlist not found[39m
+[2026-07-26 15:20:33:2033] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:20:33:2033] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:20:33:2033] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:20:34:2034] [[31merror[39m]: [31mGET /api/v1/dashboard/admin - status: 403 - message: You do not have permission to perform this action.[39m
+[2026-07-26 15:20:34:2034] [[31merror[39m]: [31mGET /api/v1/dashboard/user - status: 403 - message: Your account has been suspended by an administrator.[39m
+[2026-07-26 15:20:35:2035] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:20:35:2035] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:20:35:2035] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:20:37:2037] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:20:37:2037] [[31merror[39m]: [31mGET /api/v1/movies/search - status: 400 - message: Search query parameter "query" is required[39m
+[2026-07-26 15:22:40:2240] [[31merror[39m]: [31mGET /api/v1/movies/search - status: 400 - message: Search query parameter "query" is required[39m
+[2026-07-26 15:22:43:2243] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:25:34:2534] [[31merror[39m]: [31mPOST /api/v1/auth/register - status: 400 - message: Username must be between 3 and 30 characters[39m
+[2026-07-26 15:25:34:2534] [[31merror[39m]: [31mPOST /api/v1/auth/register - status: 400 - message: Please provide a valid email address[39m
+[2026-07-26 15:25:35:2535] [[31merror[39m]: [31mPOST /api/v1/auth/login - status: 411 - message: Invalid login credentials[39m
+[2026-07-26 15:25:36:2536] [[31merror[39m]: [31mGET /api/v1/auth/me - status: 411 - message: Invalid or expired token. Please login again.[39m
+[2026-07-26 15:25:37:2537] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:25:37:2537] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:25:37:2537] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:25:39:2539] [[31merror[39m]: [31mPOST /api/v1/reviews - status: 409 - message: You have already written a review for this movie[39m
+[2026-07-26 15:25:39:2539] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:25:39:2539] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:25:40:2540] [[31merror[39m]: [31mTMDB API request failed on path /movie/550: Request failed with status code 401[39m
+[2026-07-26 15:25:40:2540] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:25:40:2540] [[31merror[39m]: [31mTMDB status: 401 - data: {"status_code":7,"status_message":"Invalid API key: You must be granted a valid key.","success":false}[39m
+[2026-07-26 15:25:40:2540] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:25:40:2540] [[31merror[39m]: [31mTMDB API request failed on path /movie/550: Request failed with status code 401[39m
+[2026-07-26 15:25:40:2540] [[31merror[39m]: [31mTMDB status: 401 - data: {"status_code":7,"status_message":"Invalid API key: You must be granted a valid key.","success":false}[39m
+[2026-07-26 15:25:40:2540] [[31merror[39m]: [31mPOST /api/v1/social/follow/6a65d99aab0953cd77460b45 - status: 400 - message: You cannot follow yourself[39m
+[2026-07-26 15:25:41:2541] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:25:41:2541] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:25:41:2541] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:25:42:2542] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:25:42:2542] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:25:43:2543] [[31merror[39m]: [31mGET /api/v1/movies/search - status: 400 - message: Search query parameter "query" is required[39m
+[2026-07-26 15:25:45:2545] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:25:46:2546] [[31merror[39m]: [31mGET /api/v1/dashboard/admin - status: 403 - message: You do not have permission to perform this action.[39m
+[2026-07-26 15:25:46:2546] [[31merror[39m]: [31mGET /api/v1/dashboard/user - status: 403 - message: Your account has been suspended by an administrator.[39m
+[2026-07-26 15:25:48:2548] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:25:48:2548] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:25:48:2548] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:25:48:2548] [[31merror[39m]: [31mPOST /api/v1/watchlists - status: 400 - message: Watchlist name is required[39m
+[2026-07-26 15:25:48:2548] [[31merror[39m]: [31mPOST /api/v1/watchlists/6a65d9a4ce3e5e2c363dbd48/movies - status: 400 - message: This movie is already in the watchlist[39m
+[2026-07-26 15:25:48:2548] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:25:49:2549] [[31merror[39m]: [31mGET /api/v1/watchlists/6a65d9a4ce3e5e2c363dbd48 - status: 404 - message: Watchlist not found[39m
+[2026-07-26 15:25:50:2550] [[31merror[39m]: [31mError sending email: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-07-26 15:25:50:2550] [[31merror[39m]: [31mVerification email send failed: Failed to send email. please try again later.[39m
+[2026-07-26 15:27:57:2757] [[32minfo[39m]: [32mServer running on port 5000 in development mode[39m
+[2026-07-26 15:27:57:2757] [[31merror[39m]: [31mRedis Error: [39m
+[2026-07-26 15:27:57:2757] [[31merror[39m]: [31mRedis Error: [39m
+[2026-07-26 15:27:57:2757] [[32minfo[39m]: [32mMongoDB Connected: localhost[39m
+[2026-07-26 15:27:58:2758] [[31merror[39m]: [31mRedis Error: [39m
+[2026-07-26 15:27:59:2759] [[31merror[39m]: [31mRedis Error: [39m
+[2026-07-26 15:28:00:280] [[33mwarn[39m]: [33mRedis reconnection failed. Switching to in-memory fallback cache.[39m
+[2026-07-26 15:28:00:280] [[31merror[39m]: [31mRedis Error: [39m
+[2026-07-26 15:28:00:280] [[31merror[39m]: [31mCould not connect to Redis: . In-memory fallback will be used.[39m
+[2026-07-26 15:28:21:2821] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Too many failed login attempts[39m
+[2026-08-23 17:27:20:2720] [[32minfo[39m]: [32mServer running on port 5000 in development mode[39m
+[2026-08-23 17:27:20:2720] [[31merror[39m]: [31mRedis Error: [39m
+[2026-08-23 17:27:20:2720] [[31merror[39m]: [31mRedis Error: [39m
+[2026-08-23 17:27:20:2720] [[32minfo[39m]: [32mMongoDB Connected: localhost[39m
+[2026-08-23 17:27:21:2721] [[31merror[39m]: [31mRedis Error: [39m
+[2026-08-23 17:27:22:2722] [[31merror[39m]: [31mRedis Error: [39m
+[2026-08-23 17:27:23:2723] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Invalid credentials[39m
+[2026-08-23 17:27:24:2724] [[33mwarn[39m]: [33mRedis reconnection failed. Switching to in-memory fallback cache.[39m
+[2026-08-23 17:27:24:2724] [[31merror[39m]: [31mRedis Error: [39m
+[2026-08-23 17:27:24:2724] [[31merror[39m]: [31mCould not connect to Redis: . In-memory fallback will be used.[39m
+[2026-08-23 17:34:31:3431] [[32minfo[39m]: [32mServer running on port 5000 in development mode[39m
+[2026-08-23 17:34:31:3431] [[31merror[39m]: [31mRedis Error: [39m
+[2026-08-23 17:34:31:3431] [[31merror[39m]: [31mRedis Error: [39m
+[2026-08-23 17:34:31:3431] [[32minfo[39m]: [32mMongoDB Connected: localhost[39m
+[2026-08-23 17:34:31:3431] [[31merror[39m]: [31mRedis Error: [39m
+[2026-08-23 17:34:32:3432] [[31merror[39m]: [31mRedis Error: [39m
+[2026-08-23 17:34:34:3434] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Invalid credentials[39m
+[2026-08-23 17:34:34:3434] [[33mwarn[39m]: [33mRedis reconnection failed. Switching to in-memory fallback cache.[39m
+[2026-08-23 17:34:34:3434] [[31merror[39m]: [31mRedis Error: [39m
+[2026-08-23 17:34:34:3434] [[31merror[39m]: [31mCould not connect to Redis: . In-memory fallback will be used.[39m
+[2026-08-23 17:44:33:4433] [[32minfo[39m]: [32mServer running on port 5000 in development mode[39m
+[2026-08-23 17:44:33:4433] [[31merror[39m]: [31mRedis Error: [39m
+[2026-08-23 17:44:33:4433] [[31merror[39m]: [31mRedis Error: [39m
+[2026-08-23 17:44:33:4433] [[32minfo[39m]: [32mMongoDB Connected: localhost[39m
+[2026-08-23 17:44:34:4434] [[31merror[39m]: [31mRedis Error: [39m
+[2026-08-23 17:44:35:4435] [[31merror[39m]: [31mRedis Error: [39m
+[2026-08-23 17:44:36:4436] [[33mwarn[39m]: [33mRedis reconnection failed. Switching to in-memory fallback cache.[39m
+[2026-08-23 17:44:36:4436] [[31merror[39m]: [31mRedis Error: [39m
+[2026-08-23 17:44:36:4436] [[31merror[39m]: [31mCould not connect to Redis: . In-memory fallback will be used.[39m
+[2026-08-23 17:44:36:4436] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Invalid credentials[39m
+[2026-08-23 17:46:00:460] [[32minfo[39m]: [32mServer running on port 5000 in development mode[39m
+[2026-08-23 17:46:00:460] [[31merror[39m]: [31mRedis Error: [39m
+[2026-08-23 17:46:00:460] [[31merror[39m]: [31mRedis Error: [39m
+[2026-08-23 17:46:01:461] [[31merror[39m]: [31mRedis Error: [39m
+[2026-08-23 17:46:01:461] [[32minfo[39m]: [32mMongoDB Connected: ac-tnadlgf-shard-00-00.rqmh17c.mongodb.net[39m
+[2026-08-23 17:46:02:462] [[31merror[39m]: [31mRedis Error: [39m
+[2026-08-23 17:46:03:463] [[31merror[39m]: [31mSMTP Connection error: Invalid login: 535 5.7.0 Invalid credentials[39m
+[2026-08-23 17:46:03:463] [[33mwarn[39m]: [33mRedis reconnection failed. Switching to in-memory fallback cache.[39m
+[2026-08-23 17:46:03:463] [[31merror[39m]: [31mRedis Error: [39m
+[2026-08-23 17:46:03:463] [[31merror[39m]: [31mCould not connect to Redis: . In-memory fallback will be used.[39m
