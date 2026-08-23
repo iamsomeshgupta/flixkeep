@@ -29,6 +29,49 @@ export default function MovieDetail() {
   const videosQuery = useQuery({ queryKey: ['movie', id, 'videos'], queryFn: () => getMovieVideos(id) });
   const recsQuery = useQuery({ queryKey: ['movie', id, 'recs'], queryFn: () => getMovieRecommendations(id) });
 
+  const movie = detailQuery.data;
+  const { user } = useAuth();
+  const queryClient = useQueryClient();
+
+  const { data: watchlists = [] } = useQuery({
+    queryKey: ['watchlists'],
+    queryFn: getMyWatchlists,
+    enabled: !!user,
+  });
+
+  const addMovieMutation = useMutation({
+    mutationFn: ({ watchlistId, movieData }) => addMovieToWatchlist(watchlistId, movieData),
+    onSuccess: (data, variables) => {
+      const listName = watchlists.find((w) => w._id === variables.watchlistId)?.name || 'watchlist';
+      toast.success(`Added "${variables.movieData?.title || movie?.title || 'movie'}" to ${listName}!`);
+      queryClient.invalidateQueries({ queryKey: ['watchlists'] });
+    },
+    onError: (err) => {
+      toast.error(err.response?.data?.message || 'Failed to add movie to watchlist.');
+    },
+  });
+
+  React.useEffect(() => {
+    if (movie && movie.id) {
+      try {
+        const historyJson = localStorage.getItem('flixkeep-watch-history');
+        let history = historyJson ? JSON.parse(historyJson) : [];
+        
+        history = history.filter((m) => m.id !== movie.id);
+        history.unshift({
+          id: movie.id,
+          title: movie.title,
+          poster_path: movie.poster_path,
+        });
+        
+        history = history.slice(0, 8);
+        localStorage.setItem('flixkeep-watch-history', JSON.stringify(history));
+      } catch (err) {
+        console.error('Failed to update watch history:', err);
+      }
+    }
+  }, [movie]);
+
   const isLoading = detailQuery.isLoading || creditsQuery.isLoading || videosQuery.isLoading || recsQuery.isLoading;
 
   if (isLoading) {
@@ -45,31 +88,9 @@ export default function MovieDetail() {
     );
   }
 
-  const movie = detailQuery.data;
   const credits = creditsQuery.data || { cast: [], crew: [] };
   const videos = videosQuery.data?.results || [];
   const recommendations = recsQuery.data?.results || [];
-
-  const { user } = useAuth();
-  const queryClient = useQueryClient();
-
-  const { data: watchlists = [] } = useQuery({
-    queryKey: ['watchlists'],
-    queryFn: getMyWatchlists,
-    enabled: !!user,
-  });
-
-  const addMovieMutation = useMutation({
-    mutationFn: ({ watchlistId, movieData }) => addMovieToWatchlist(watchlistId, movieData),
-    onSuccess: (data, variables) => {
-      const listName = watchlists.find((w) => w._id === variables.watchlistId)?.name || 'watchlist';
-      toast.success(`Added "${movie.title}" to ${listName}!`);
-      queryClient.invalidateQueries({ queryKey: ['watchlists'] });
-    },
-    onError: (err) => {
-      toast.error(err.response?.data?.message || 'Failed to add movie to watchlist.');
-    },
-  });
 
   // Filter Director and Screenplay/Writer
   const director = credits.crew.find((p) => p.job === 'Director')?.name || 'Unknown';
@@ -93,27 +114,6 @@ export default function MovieDetail() {
   const releaseYear = movie.release_date ? movie.release_date.split('-')[0] : 'N/A';
   const runtimeHours = Math.floor(movie.runtime / 60);
   const runtimeMins = movie.runtime % 60;
-
-  React.useEffect(() => {
-    if (movie && movie.id) {
-      try {
-        const historyJson = localStorage.getItem('flixkeep-watch-history');
-        let history = historyJson ? JSON.parse(historyJson) : [];
-        
-        history = history.filter((m) => m.id !== movie.id);
-        history.unshift({
-          id: movie.id,
-          title: movie.title,
-          poster_path: movie.poster_path,
-        });
-        
-        history = history.slice(0, 8);
-        localStorage.setItem('flixkeep-watch-history', JSON.stringify(history));
-      } catch (err) {
-        console.error('Failed to update watch history:', err);
-      }
-    }
-  }, [movie]);
 
   return (
     <div className="pb-5">
